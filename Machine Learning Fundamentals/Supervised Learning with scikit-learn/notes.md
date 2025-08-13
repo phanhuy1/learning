@@ -44,7 +44,7 @@ from sklearn.neighbors import  KNeighbors
 
 ACCURACY
 How do we measure accuracy
-
+ 
 $\frac{correct predictions}{total observations}$
 
 ```python
@@ -56,3 +56,5 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 | Tham số    | Ý nghĩa                                                                   |
 | ---------- | ------------------------------------------------------------------------- |
 | `stratify` | Đảm bảo tỷ lệ phân bố của các lớp (nhãn) được giữ nguyên khi chia dữ liệu |
+
+
